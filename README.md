@@ -1,14 +1,14 @@
 # Adaptive optics
 
 Code for simulations of a flexible adaptive mirror. Windows only. All documentation and comments are in Russian, but will be translated in the future. 
-See documents in the *science_part* folder for the scientific side of the problem, screenshots and description of the used algorithms.
+See documents in the **science_part** folder for the scientific side of the problem, screenshots and description of the used algorithms.
 
-## Краткое описание пунктов меню программы:
-
+## Краткое описание пунктов меню программы
+```
 **Файл**
 		*Выход*
 		выход из программы. данные не сохраняются
-
+		
 **Функции**
 		*Скрыть доп. окно*
 		скрывается окно с изображением. данные сохраняются.
@@ -48,8 +48,8 @@ See documents in the *science_part* folder for the scientific side of the proble
 		Пятый электрод		-1.39783  -0.417593  -0.0453655  0.133587    0.0567668  -0.0301923
   
 		Результатом аппроксимации является значение (условных) напряжений, которые необходимо подать
-		на электроды зеркала для формирования вносимых им искажений, наиболее близких к сгенерированному
-		 "RANDOM!"'ом.
+		на электроды зеркала для формирования вносимых им искажений, наиболее близких к 
+		сгенерированному "RANDOM!"'ом.
 
 		*Проверить*
 		построение изображения по данным аппроксимации. становится активным только после выполнения 
@@ -60,6 +60,7 @@ See documents in the *science_part* folder for the scientific side of the proble
 		после выполнения аппроксимации.
 
 **About**	информация об авторе
+```
 
 ### Автор
 Тигран Калайджян 2006г.
