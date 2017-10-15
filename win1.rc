@@ -1,0 +1,154 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MYMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "&Выход",                      ID_EXIT
+    END
+    POPUP "Ф&ункции"
+    BEGIN
+        MENUITEM "&Скрыть доп. окно",           ID_HIDE
+        MENUITEM "Ввод &Данных",                ID_INSDATA
+        MENUITEM "&Показать доп. окно",         ID_PAINT
+        MENUITEM "&Очистить доп. окно",         ID_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Аппроксимировать",           ID_APPROX
+        MENUITEM "&Проверить",                  ID_CHECK, GRAYED
+        MENUITEM "&Компенсация (увелич)",       ID_KOMPENS, GRAYED
+    END
+    MENUITEM "&About",                      ID_ABOUT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TIGDG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        VERTGUIDE, 27
+        VERTGUIDE, 97
+        VERTGUIDE, 116
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+        HORZGUIDE, 160
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TIGDG DIALOG DISCARDABLE  0, 0, 273, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Задание параметра"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,63,159,50,14
+    PUSHBUTTON      "Cancel",IDC_CANCEL,143,159,50,14
+    EDITTEXT        IDC_EDIT1,116,14,77,14,ES_AUTOHSCROLL
+    LTEXT           "Наклон",IDC_STATIC,27,18,42,13
+    EDITTEXT        IDC_EDIT2,116,30,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,116,47,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,116,63,77,14,ES_AUTOHSCROLL
+    LTEXT           "Наклон",IDC_STATIC,27,31,48,13
+    LTEXT           "Астигматизм",IDC_STATIC,27,63,49,13
+    LTEXT           "Астигматизм",IDC_STATIC,27,78,48,13
+    EDITTEXT        IDC_EDIT5,116,78,77,14,ES_AUTOHSCROLL
+    LTEXT           "Дефокус",IDC_STATIC,27,47,44,13
+    EDITTEXT        IDC_EDIT6,116,95,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,116,111,77,14,ES_AUTOHSCROLL
+    LTEXT           "Кома",IDC_STATIC,27,95,30,13
+    LTEXT           "Кома",IDC_STATIC,27,112,24,13
+    PUSHBUTTON      "RANDOM!",IDC_BUTTON1,213,64,50,14
+    EDITTEXT        IDC_EDIT8,116,127,77,14,ES_AUTOHSCROLL
+    LTEXT           "Сферическая аберрация",IDC_STATIC,27,126,49,16
+    LTEXT           "1 1",IDC_STATIC,94,18,18,10
+    LTEXT           "1 -1",IDC_STATIC,94,34,18,10
+    LTEXT           "0 2",IDC_STATIC,94,50,18,10
+    LTEXT           "2 -2",IDC_STATIC,94,67,18,10
+    LTEXT           "2 2",IDC_STATIC,94,82,18,10
+    LTEXT           "3 -1",IDC_STATIC,94,98,18,10
+    LTEXT           "3 1",IDC_STATIC,94,114,18,10
+    LTEXT           "4 0",IDC_STATIC,94,130,18,10
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
